@@ -7,7 +7,7 @@
 
 Console.WriteLine("ведите  чило: ");
 int num = Convert.ToInt32(Console.ReadLine());
-
+int Unum = num;
 if(num<100)
 {
  Console.WriteLine("нет третей цифры ");
@@ -17,6 +17,6 @@ while(num>1000)
 {
     num = num / 10;
 }
-num = num % 10;
-Console.WriteLine(num);
+
+Console.WriteLine($"Третья цифра числа: {Unum}->{num % 10}");
 
