@@ -13,7 +13,7 @@ if(num<100)
  Console.WriteLine("нет третей цифры ");
 }
 
-while(num>1000)
+while(num>=1000)
 {
     num = num / 10;
 }
